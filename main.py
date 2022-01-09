@@ -3,7 +3,7 @@
    The graph is generated and embedded into the template html file
      /templates/index.html
 """
-
+git push heroku master
 from bokeh.layouts import row, column, widgetbox       #For laying out the page
 from bokeh.models import TextInput, Button, Select, Div  #Interactive Widgets
 from bokeh.models import ColumnDataSource, HoverTool
